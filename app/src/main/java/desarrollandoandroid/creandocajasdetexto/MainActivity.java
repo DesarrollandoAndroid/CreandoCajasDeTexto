@@ -36,12 +36,10 @@ public class MainActivity extends ActionBarActivity {
         hexNum = (Button)findViewById(R.id.hexNumber);
         sText = (Button)findViewById(R.id.text);
 
-    /*    phoNum.setOnClickListener(new View.OnClickListener(){
+        phoNum.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-
-
-
+                phoneNumber = phone.getText().toString();
                 Toast number = Toast.makeText(getBaseContext(), phoneNumber, Toast.LENGTH_SHORT);
                 number.show();
             }
@@ -50,13 +48,11 @@ public class MainActivity extends ActionBarActivity {
         hexNum.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-
-
-
+                hexadecimalNumber = hexadecimal.getText().toString();
                 Toast HexNumber = Toast.makeText(getBaseContext(), hexadecimalNumber, Toast.LENGTH_SHORT);
                 HexNumber.show();
             }
-        }); */
+        });
 
         sText.setOnClickListener(new View.OnClickListener(){
             @Override
